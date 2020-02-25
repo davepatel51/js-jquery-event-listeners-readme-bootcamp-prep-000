@@ -24,8 +24,3 @@ function pressIt(){
   });
 }
 
-function submitIt(){
-  $("form").on("submit", function(){
-    window.alert("Your forim is going to be submitted now.");
-  });
-}
