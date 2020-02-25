@@ -20,7 +20,10 @@ function frameIt(){
 }
   
 function pressIt(){
-  $("input").on("keydown", function(e){
+  $("input").on("keydown", function(a){
+    if (a.which === 71){
+      window.alert("G was pressed.");
+    }
   });
 }
 
